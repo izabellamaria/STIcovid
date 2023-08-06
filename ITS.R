@@ -1,5 +1,5 @@
 #Direcionado o R para o Diretorio a ser trabalhado
-setwd('C:/Users/User/Desktop')
+setwd('C:/Users/Desktop')
 
 #Limpa o Ambiente Global
 rm(list=ls())
@@ -71,7 +71,7 @@ library(gtrendsR)
 library(pander)
 
 #Entrando dados
-dados <- read_excel("C:/Users/User/OneDrive/Área de Trabalho/dados19.xlsx")
+dados <- read_excel("C:/Users/dados.xlsx")
 attach(dados)
 View(dados)
 
